@@ -1,0 +1,27 @@
+@import 'node_modules/vanilla-framework';
+@include vanilla;
+
+body {
+  margin: 4rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: $font-weight-thin;
+  color: gray;
+}
+
+.p-heading--4 {
+  font-weight: $font-weight-bold;
+}
+
+@media (min-width: 1024px) {
+  .p-heading-container {
+    height: 8rem;
+  }
+}
